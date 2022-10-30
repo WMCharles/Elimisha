@@ -4,12 +4,12 @@ import '../../styles/NavBar/NavBar.css'
 export default function NavBar() {
   return (
     <div>
-        <div class="navbar">
+        <div className="navbar">
             <nav>
                 <input type="checkbox" name="" id="check"/>
-                <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
-                <label class="logo">Elimisha</label>
-                <div class="nav-menu">
+                <label htmlFor="check" className="checkbtn"><i className="fas fa-bars"></i></label>
+                <label className="logo">Elimisha</label>
+                <div className="nav-menu">
                     <Link to="/">Home</Link>
                     <Link to="/scholarships">Scholarships</Link>
                     <Link to="/about">About</Link>
