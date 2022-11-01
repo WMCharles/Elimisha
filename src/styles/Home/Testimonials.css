@@ -1,0 +1,43 @@
+.testimonials {
+    margin-top: 4em;
+}
+
+.testimonials h1, .testimonials h2 {
+    text-align: center;
+}
+
+.testimonials h1 {
+    margin-bottom: 1em;
+}
+.testimonials h2 {
+    margin-bottom: 2em;
+}
+
+.feedback-container {
+    float: left;
+    width: 25%;
+    margin-bottom: auto;
+    padding: 0 6px;
+}
+
+.feedback img{
+    width: 100%;
+    height: 250px;
+}
+
+.author {
+    margin-top: .5em;
+}
+
+@media only screen and (max-width: 858px) {
+    .feedback-container {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .feedback-container {
+        width: 100%;
+    }
+}
